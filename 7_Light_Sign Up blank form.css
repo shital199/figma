@@ -1,0 +1,177 @@
+.form-control {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 8px;
+    width: 377px ! important;
+    text-align: center;
+
+
+}
+
+.btn {
+    width: 377px;
+    margin-left: 8px;
+    height: 40px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    text-shadow: 4px 8px 24px rgba;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    margin-bottom: 65px;
+}
+
+ .k1 {
+    width: 95px;
+    height: 20px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.2px;
+    color: #212121;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+
+
+/* .b4 {
+    width: 151px;
+    height: 20px;
+    font-family: 'Urbanist';
+
+    font-style: normal;
+    font-size: 14px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.2px;
+    margin-left: 92px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+} */
+
+.p2 {
+    width: 380px;
+    height: 60px;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    align-items: center;
+    margin-top: -32px;
+}
+
+
+@media screen and (max-width: 600px) {
+    .form-control {
+        flex-direction: column;
+        align-items: center;
+        padding: 18px 32px;
+        gap: 10px;
+        height: 60px;
+        margin-left: 8px;
+        width: 377px ! important;
+
+
+    }
+}
+
+.flex-container {
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+@media screen and (max-width: 600px) {
+    .form-control {
+        flex-direction: column;
+        align-items: center;
+        padding: 18px 32px;
+        gap: 10px;
+        height: 60px;
+        margin-left: 8px;
+        width: 377px ! important;
+        text-align: center;
+
+
+    }
+}
+
+.t1 {
+
+    display: flex;
+    flex-direction: row;
+}
+
+t1:before,
+t1:after {
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+}
+
+t1:before {
+    margin-right: 10px
+}
+
+t1:after {
+    margin-left: 10px
+}
+
+
+h2 {
+    display: flex;
+    flex-direction: row;
+    font-size: 18px !important;
+
+  }
+  h2:before, h2:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid;
+    margin: auto;
+  }
+  h2:before {
+    margin-right: 10px
+  }
+  h1:after {
+    margin-left: 10px
+  }
+
+
+  .input-icons i {
+    position: absolute;
+}
+  
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+  
+
+input, label{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 10px 0;
+  }
+  
